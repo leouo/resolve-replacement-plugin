@@ -1,0 +1,39 @@
+{
+  "name": "resolve-replacement-plugin",
+  "version": "1.0.0",
+  "description": "Replace any file path before webpack compiles the modules",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/leouo/resolve-replacement-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "replace",
+    "resolve",
+    "resolver",
+    "module"
+  ],
+  "author": "Leonardo Cesar Morais <leonardoccpmorais@gmail.com> (https://github.com/leouo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leouo/resolve-replacement-plugin/issues"
+  },
+  "homepage": "https://github.com/leouo/resolve-replacement-plugin#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "webpack": "^4.0.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.4.2"
+  }
+}

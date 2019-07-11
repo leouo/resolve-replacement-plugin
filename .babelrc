@@ -1,0 +1,16 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "4.5",
+        },
+      },
+    ],
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "add-module-exports",
+  ]
+}
